@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>todos</title>
+	<link rel="stylesheet" href="assets/css/style.css" type="text/css" media="screen" />
+</head>
+<body>
+
+<section class="todoapp">
+	<header class="header">
+		<h1>todos</h1>
+	</header>
+	<section class="main">
+		<header class="main-header">
+			<input class="new-todo view-label-text" placeholder="What needs to be done?" autofocus="">
+			<input class="toggle-all" id="toggle-all" type="checkbox">
+			<label for="toggle-all" class="toggle-all-label-text">Mark all as complete</label>
+		</header>
+		<ul class="todo-list">
+			<li data-id="" class="todo-list-item">
+				<div class="view">
+					<input class="toggle" type="checkbox"/>
+					<label class="view-label-text">dfdf</label>
+					<button class="remove"></button>
+				</div>
+			</li>
+			<li data-id="" class="todo-list-item">
+				<div class="view">
+					<input class="toggle" type="checkbox"/>
+					<label class="view-label-text">dfddddf</label>
+					<button class="remove"></button>
+				</div>
+			</li>
+		</ul>
+		<footer class="main-footer">
+			<div class="todo-count-wrap">
+				<strong id="todo-count" class="todo-count">2</strong> items left
+			</div>
+			<button class="clear-completed">clear-completed</button>
+			<ul class="filters">
+				<li>
+					<a href="#/" class="selected">All</a>
+				</li>
+				<li>
+					<a href="#/active">Active</a>
+				</li>
+				<li>
+					<a href="#/completed">Completed</a>
+				</li>
+			</ul>
+		</footer>
+	</section>
+	<footer class="hotkeys-info">
+		<p>Double-click to edit a todo</p>
+	</footer>
+</section>
+
+</body>
+</html>
