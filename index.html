@@ -18,35 +18,28 @@
 			<label for="toggle-all" class="toggle-all-label-text">Mark all as complete</label>
 		</header>
 		<ul class="todo-list">
-			<li data-id="" class="todo-list-item">
-				<div class="view">
-					<input class="toggle" type="checkbox"/>
-					<label class="view-label-text">dfdf</label>
-					<button class="remove"></button>
-				</div>
-			</li>
-			<li data-id="" class="todo-list-item">
-				<div class="view">
-					<input class="toggle" type="checkbox"/>
-					<label class="view-label-text">dfddddf</label>
-					<button class="remove"></button>
-				</div>
-			</li>
+			<!--<li data-id="" class="todo-list-item">-->
+				<!--<div class="view">-->
+					<!--<input class="toggle" type="checkbox"/>-->
+					<!--<label class="view-label-text">dfdf</label>-->
+					<!--<button class="remove"></button>-->
+				<!--</div>-->
+			<!--</li>-->
 		</ul>
 		<footer class="main-footer">
 			<div class="todo-count-wrap">
 				<strong id="todo-count" class="todo-count">2</strong> items left
 			</div>
-			<button class="clear-completed">clear-completed</button>
+			<button id="clearCompleted" class="clear-completed">clear-completed</button>
 			<ul class="filters">
 				<li>
-					<a href="#/" class="selected">All</a>
+					<a href="#/" id="filterAll" class="selected">All</a>
 				</li>
 				<li>
-					<a href="#/active">Active</a>
+					<a href="#/active" id="filterActive">Active</a>
 				</li>
 				<li>
-					<a href="#/completed">Completed</a>
+					<a href="#/completed" id="filterCompleted">Completed</a>
 				</li>
 			</ul>
 		</footer>
